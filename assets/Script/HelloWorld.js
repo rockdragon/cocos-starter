@@ -1,3 +1,5 @@
+import { double } from './lib/utils';
+
 cc.Class({
     extends: cc.Component,
 
@@ -12,7 +14,7 @@ cc.Class({
 
     // use this for initialization
     onLoad: function () {
-        this.label.string = this.text;
+        this.label.string = double(this.text);
     },
 
     // called every frame
