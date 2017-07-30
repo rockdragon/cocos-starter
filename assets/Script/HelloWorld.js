@@ -16,7 +16,7 @@ cc.Class({
     onLoad: function () {
         this.label.string = double(this.text);
     },
-
+    
     // called every frame
     update: function (dt) {
 
